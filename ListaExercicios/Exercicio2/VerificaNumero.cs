@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercicios.Exercicio2
+﻿namespace Exercicios.Exercicio2
 {
-    public static class VerificaNumeroPrimo
+    public static class VerificaNumero
     {
         private static List<int> EncontrarDivisores(int numero)
         {

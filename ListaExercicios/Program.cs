@@ -1,4 +1,4 @@
-﻿namespace ListaExercicios
+﻿namespace Exercicios
 {
     internal class Program
     {
