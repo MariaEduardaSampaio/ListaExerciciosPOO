@@ -167,7 +167,11 @@ namespace InterfaceUsuario
                 Console.WriteLine("\nEntre com uma opção: ");
                 opcao = RetornarOpcaoValida(0, 11);
                 SelecionaExercicio(opcao);
-                Console.ReadKey();
+                if (opcao != 11)
+                {
+                    Console.WriteLine("\n\nAperte qualquer tecla para voltar ao menu.");
+                    Console.ReadKey();
+                }
              } while (opcao != 11);
         }
     }
